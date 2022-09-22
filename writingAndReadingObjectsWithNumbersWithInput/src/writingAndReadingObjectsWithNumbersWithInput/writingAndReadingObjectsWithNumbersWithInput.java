@@ -15,7 +15,7 @@ public class writingAndReadingObjectsWithNumbersWithInput {
         System.out.println("Objects in Files by Kevin Bell with numbers \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
         double score;
-        double[] numbers = {};
+        double[] numbers;
         numbers = new double[5];
         for (int i = 0; i < 5; i++) {
             System.out.print("Enter test score: ");
